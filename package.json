@@ -1,0 +1,20 @@
+{
+  "name": "graphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.6.0",
+    "cypress": "^8.7.0",
+    "cypress-rest-graphql": "0.0.4",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
