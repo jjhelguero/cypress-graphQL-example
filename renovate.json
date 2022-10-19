@@ -6,7 +6,10 @@
     {
       "packagePatterns": ["*"],
       "excludePackagePatterns": [
-        "cypress"
+        "@bahmutov/cy-api",
+        "cypress-rest-graphql",
+        "graphql",
+        "graphql-request"
       ],
       "enabled": false
     }
