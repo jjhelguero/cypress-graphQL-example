@@ -12,7 +12,7 @@
     "@bahmutov/cy-api": "1.6.2",
     "cypress": "10.4.0",
     "cypress-rest-graphql": "0.0.4",
-    "graphql": "^16.0.1",
+    "graphql": "16.6.0",
     "graphql-request": "^3.6.1"
   },
   "dependencies": {},
