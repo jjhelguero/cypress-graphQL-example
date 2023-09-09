@@ -1,5 +1,3 @@
-const {sampleQuery} = require('./graphql')
-
 const query = `
     query ($id: Int) {
         Media (id: $id, type: ANIME) {
@@ -46,6 +44,6 @@ it('cy.api should return graph query', function () {
 });
 
 it('should return graphql query plugin', function () {
-    cy.graphQL(sampleQuery,variables)
+    cy.graphQL(query,variables)
 });
 
