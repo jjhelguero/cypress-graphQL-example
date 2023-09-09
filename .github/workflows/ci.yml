@@ -1,0 +1,12 @@
+name: Run Tests on Ci
+on:
+  pull_request:
+    types: [opened, edited]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run Tests
+        run: yarn ci-test
